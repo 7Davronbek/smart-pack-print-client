@@ -1,0 +1,26 @@
+@import './color.scss';
+
+.advantage{
+    padding: 50px 0;
+    background: #a9b6b8;
+    text-align: center;
+    border-radius: 200px 0 200px;
+    .card{
+        .card-header{
+            padding: 60px;
+            padding-bottom: 20px;
+        }
+        .card-body{
+            h3{
+                color: $whitecolor;
+                font-size: 42px;
+            }
+            p{
+                font-size: 16px;
+                font-weight: 400;
+                color: $whitecolor;
+                margin-top: 20px;
+            }
+        }
+    }
+}

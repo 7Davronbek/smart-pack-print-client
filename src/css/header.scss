@@ -1,0 +1,55 @@
+@import './color.scss';
+
+.header{
+    background-color: #b6c5c4;
+    background-image: url(/img/header-bg.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 90vh;
+
+    // .img {
+        
+    //     img {
+    //         z-index: -1;
+    //     }
+    // }
+
+    .header-btn{
+        text-align: center;
+        margin: 1000px 0 100px;
+        z-index: 111;
+
+        .btn {
+            font-weight: 600;
+            background: #1a405f;
+            text-transform: uppercase;
+            padding: 10px 48px;
+            color: $whitecolor;
+            text-align: center;
+            border-radius: 15px;
+            font-size: 21px;
+            z-index: 111;
+        }
+
+        @media(max-width: 1600px) {
+            margin-top: 900px;
+        }
+    }
+
+    @media(max-width: 2400px) {
+        background-size: 120% 100%;
+        background-position-x: 50%;
+        height: 80vh;
+    }
+
+    @media(max-width: 1700px) {
+        background-size: 120% 100%;
+        background-position-x: 50%;
+        height: 80vh;
+    }
+
+    @media(max-width: 1600px) {
+        background-size: auto;
+        height: auto;
+    }
+}

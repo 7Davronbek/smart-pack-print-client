@@ -1,0 +1,55 @@
+@import './color.scss';
+
+.ourTeam{
+    margin: 70px 0;
+    background: url(/img/team-bg.png);
+    background-size: cover;
+    padding: 70px 0;
+    text-align: center;
+    color: $whitecolor;
+    text-transform: uppercase;
+    p{
+        font-size: 24px;
+    }
+    h2{
+        font-size: 63px;
+        line-height: 52px;
+        margin-bottom: 60px;
+    }
+    
+    .card{
+        padding-right: 20px;
+
+        &:last-child{
+            padding-right: 0;
+        }
+    }
+    
+    .card-top{
+        width: 400px;
+        height: 400px;
+        margin: 0 auto;
+       img{
+        border-radius: 50%;
+       } 
+        
+    }
+    .card-body{
+        margin-top: 40px;
+
+        span{
+            font-weight: 400;
+            font-size: 18px;
+
+        }
+        h4{
+            font-weight: 700;
+            font-size: 48px;
+        }
+        p{
+            font-weight: 400;
+            font-size: 22px;
+            margin-top: 30px;
+        }
+    }
+}

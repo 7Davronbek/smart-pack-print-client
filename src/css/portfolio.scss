@@ -1,0 +1,22 @@
+.portfolio {
+    margin: 100px 0;
+    
+    .rpc-content-item{
+        width: 490px;
+        height: 490px;
+
+        .wrap {
+            background: #a9b6b8;
+            padding: 60px;
+            border-radius: 40px;
+            width: 100%;
+            height: 100%;
+        }
+    }
+    .rpc-content-control-btns{
+        display: none;
+    }
+    .rpc-content-controls .rpc-content-control-dots{
+        margin-top: 30px;
+    }
+}
