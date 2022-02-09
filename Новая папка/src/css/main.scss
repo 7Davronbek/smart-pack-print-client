@@ -1,0 +1,36 @@
+$color1:#08aaeb;
+$whitecolor: #fff;
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+@font-face {
+    font-family: "TaktikSans";
+    src: url("../fonts/TacticSans-Blk.otf") format("truetype");
+  }
+  .tak-bold {
+    font-family: "TaktikSans", sans-serif;
+  }
+
+  #root {
+    width: 100%;
+    overflow-x: hidden;
+  }
+body {
+    font-family: 'Montserrat', sans-serif;
+
+    .card, .card-header, .card-body{
+        background: none;
+        border: none;
+        padding: 0;
+    }
+
+    .container {
+
+      @media (min-width: 1200px) {
+        max-width: 1500px;  
+      }
+    }
+
+    // .servicesPage {
+    //   margin-top: 70px;
+    // }
+}
