@@ -30,7 +30,46 @@ body {
       }
     }
 
+    .myBtn {
+      position: relative;
+      overflow: hidden;
+      transition: all .5s ease-in-out;
+
+      &:hover {
+        transform: translateY(-6px);
+      }
+
+      &::after {
+        content: '';
+        position: absolute;
+        z-index: -1;
+        transform: translateX(-110px) rotate(67deg);
+        transition: all .5s ease-in-out;
+        width: 150px;
+        height: 41px;
+        left: 0;
+        top: 0;
+        background-color: rgba(255, 255, 255, 0.288);
+        animation: animBtn 7s ease-in-out infinite ;
+      }
+    }
+
     // .servicesPage {
     //   margin-top: 70px;
     // }
+}
+
+
+@keyframes animBtn {
+  0% {
+    transform: translateX(-110px) rotate(67deg);
+  }
+
+  50% {
+    transform: translateX(290px) rotate(67deg);
+  }
+
+  100% {
+    transform: translateX(290px) rotate(67deg);
+  }
 }
